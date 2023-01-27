@@ -1,5 +1,5 @@
-@media only screen and (min-width: 1280px) and (max-width: 1022222223px) {
-    .Banner_box {
-        max-width: 8888888888888881381px !important
+@media only screen and (min-width: 200px) and (max-width: 599px) {
+    .container {
+        width: 90% !important
     }
 }
