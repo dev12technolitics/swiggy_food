@@ -5,7 +5,7 @@ import { ProductBox } from "../product";
 import SearchHome from "./SearchHome";
 
 const HomePage = () => {
-  return (
+  return ( 
     <>
       <div className="w-full flex flex-col justify-center items-center bg-[#070f10]">
         <div className="container ">
