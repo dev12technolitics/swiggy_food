@@ -1,6 +1,7 @@
 import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
 import * as React from 'react';
+import { BiMenu } from 'react-icons/bi';
 import AccordionOne from './AccordionOne';
 
 export default function MobileSidebar() {
@@ -48,12 +49,14 @@ export default function MobileSidebar() {
             {['left'].map((anchor) => (
                 <React.Fragment key={anchor}>
                     <div
-                        className='w-5 border-5'
+                        className='w-5'
                         onClick={toggleDrawer(anchor, true)}
+                        style={{width: "29px", height:"32px"}}
                     >
+                        {/* <div className='w-full box-border mb-[5px] sidebar_overlay_icon transition-all' />
                         <div className='w-full box-border mb-[5px] sidebar_overlay_icon transition-all' />
-                        <div className='w-full box-border mb-[5px] sidebar_overlay_icon transition-all' />
-                        <div className='w-full box-border sidebar_overlay_icon transition-all' />
+                        <div className='w-full box-border sidebar_overlay_icon transition-all' /> */}
+                        <BiMenu size={30} color="#ffff"/>
                     </div>
                     <Drawer
                         anchor={anchor}

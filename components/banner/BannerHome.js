@@ -60,22 +60,31 @@ export default function BannerHome() {
                     }}
                   >
                     <h3
-                      className="font-bold leading-[33px] text-[28px] text-[#fffffff2]
+                      className="font-bold leading-[33px] text-[28px] text-[#eae5dc]
                  height-[67px] overflow-hidden"
+                 style={{
+                  fontFamily: 'Crimson Text',
+                }}
                     >
                       Top Brands Top Deals
                     </h3>
 
                     <h5
-                      className="font-[500] leading-[25px] text-[18px] text-[#fffffff2]
+                      className="font-[500] leading-[25px] text-[18px] text-[#eae5dc]
                  overflow-hidden"
+                 style={{
+                  fontFamily: 'Poppins',
+                }}
                     >
                       Minimum 30% OFF
                     </h5>
 
                     <h6
-                      className="leading-[23px] text-[200] text-[18px] text-[#fffffff2]
+                      className="leading-[23px] text-[200] text-[18px] text-[#eae5dc]
                  height-[20px] overflow-hidden"
+                 style={{
+                  fontFamily: 'Poppins',
+                }}
                     >
                       on your orders.
                     </h6>
@@ -83,12 +92,13 @@ export default function BannerHome() {
                     <div
                       className=" w-[119px] bg-[#fffffff2] mt-[9px]
                      flex flex-col justify-center items-center text-[14px] font-bold"
-                      style={{ borderRadius: "4px", padding: "5px" }}
+                      style={{ borderRadius: "4px", padding: "5px", fontFamily: 'Poppins', }}
                     >
                       ORDER NOW
                     </div>
                   </div>
                 </Grid>
+
                 <Grid xxl={5} xl={5} lg={5} md={5} sm={5} xs={5}>
                 <div className="flex flex-col justify-center items-center">
                   <div className="sameHeight overflow-hidden">
@@ -103,6 +113,7 @@ export default function BannerHome() {
                   </div>
                   </div>
                 </Grid>
+                
               </Grid>
             </SwiperSlide>
           );
