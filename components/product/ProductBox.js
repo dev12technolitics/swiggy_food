@@ -1,5 +1,5 @@
 import { Box } from "@mui/material";
-import React, { useState } from "react";
+import React from "react";
 import { Autoplay, Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/autoplay";
@@ -8,13 +8,11 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
 import bannerdata from "../../data/banner/allbanner";
-import ViewDiscription from "./ViewDiscription";
+
 
 export default function ProductBox() {
   const timeoutRef = React.useRef(null);
   
-  const [showModal, setShowModal] = useState(false);
-  const [filteredData, setFilteredData] = useState([]);
 
   function resetTimeout() {
     if (timeoutRef.current) {
@@ -22,14 +20,7 @@ export default function ProductBox() {
     }
   }
 
-  const quickView = (itemId) => {
-    console.log("rishabh");
 
-    setShowModal(true);
-    let newArray;
-    // let newArray = cardData?.filter((item) => item?._id == itemId);
-    setFilteredData(newArray);
-  };
 
   return (
     <Box className="h-full">
@@ -60,13 +51,11 @@ export default function ProductBox() {
                   //   style={{
                   //     backgroundImage: `url("${item?.image}")`,
                   //   }}
-                  onClick={() => quickView(item?._id)}
                 />{" "}
               </div>
               <div className="flex flex-col justify-center items-center">
                 <h5
                   className="text-[12px] text-[#fffffffc]"
-                  onClick={() => quickView(item?._id)}
                   style={{fontFamily: 'Poppins',}}
                 >
                   Masala dosa
@@ -79,13 +68,11 @@ export default function ProductBox() {
                   //   style={{
                   //     backgroundImage: `url("${item?.image}")`,
                   //   }}
-                  onClick={() => quickView(item?._id)}
                 />{" "}
               </div>
               <div className="flex flex-col justify-center items-center">
                 <h5
                   className="text-[12px] text-[#fffffffc]"
-                  onClick={() => quickView(item?._id)}
                 >
                   Masala dosa
                 </h5>
@@ -94,15 +81,6 @@ export default function ProductBox() {
           );
         })}
       </Swiper>
-      
-      <>
-        <ViewDiscription
-          // isLoading={isLoading}
-          filteredData={filteredData}
-          showModal={showModal}
-          setShowModal={setShowModal}
-        />
-      </>
     </Box>
   );
 }
