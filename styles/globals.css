@@ -110,6 +110,13 @@ a {
     /* width: 100%;
     height: 100%; */
 }
+.pro_category_two{
+  border-radius: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../assets/galleryJJHHHHJ.jpg");
+    background-size: cover;
+}
 
 .circle-icon {
   background: #142629;
