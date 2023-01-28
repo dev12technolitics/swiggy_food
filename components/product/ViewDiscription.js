@@ -1,8 +1,8 @@
 import Box from "@mui/material/Box";
-import Modal from "@mui/material/Modal";
 import React from "react";
 import { FiHeart } from 'react-icons/fi';
 import { RxCross2 } from "react-icons/rx";
+import { BaseModal } from "./tab";
 
 export default function ViewDiscription({
   filteredData,
@@ -17,23 +17,22 @@ export default function ViewDiscription({
     left: "50%",
     transform: "translate(-50%, -50%)",
     boxShadow: 24,
-    background: "#0c4e60",
+    background: "#142629",
     padding: "0px 20px",
     borderRadius: "10px",
-    // height: "375px",
     width: "296px",
   };
 
   return (
     <section>
-      <Modal
-        open={showModal}
-        // onClose={() => setShowModal(false)}
-        // aria-labelledby="modal-modal-title"
-        // aria-describedby="modal-modal-description"
+       <BaseModal
+        shown={true}
+        // close={() => setShowModal(false)}
+        modalShown={showModal}
       >
+        
         <Box sx={style}>
-          <div className="flex flex-col w-full h-full bg-[#0c4e60]">
+          <div className="flex flex-col w-full h-full bg-[#142629]">
             {/* {filteredData?.map((item, index) => ( */}
             <div className="h-full relative">
               <div
@@ -75,7 +74,7 @@ export default function ViewDiscription({
             {/* ))} */}
           </div>
         </Box>
-      </Modal>
+      </BaseModal>
     </section>
   );
 }

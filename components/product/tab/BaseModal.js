@@ -11,9 +11,9 @@ export default function BaseModal({
   return shown == modalShown ? (
     <div 
       className="modal-backdrop"
-      onClick={() => {
-        close();
-      }}
+      // onClick={() => {
+      //   close();
+      // }}
     >
       <div
         className={`bg_module modal_slide relative modal-content`}

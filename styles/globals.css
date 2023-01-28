@@ -44,7 +44,7 @@ a {
   }
 
   .MuiInputBase-root{
-    background-color: #0c4554!important;
+    background-color: #142629!important;
   }
   .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
     color: #f5f5f5!important;
@@ -91,7 +91,7 @@ a {
     height: 100%;
 }
 .MuiPaper-root{
-  background-color: #0c4554!important;
+  background-color: #142629!important;
 }
 
 .MuiInputBase-input {
@@ -113,7 +113,7 @@ a {
 }
 
 .circle-icon {
-  background: #0c4e60;
+  background: #142629;
   width: 35px;
   height: 35px;
   border-radius: 50%;
@@ -137,4 +137,18 @@ a {
     background-size: contain;
     width: 100%;
     height: 100%;
+}
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgb(0 0 0 / 45%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 500;
+  /* border: 2px solid blue; */
 }

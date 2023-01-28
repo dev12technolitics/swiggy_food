@@ -10,7 +10,7 @@
 //       <div
 //         className="sticky top-0 w-full flex justify-center items-center"
 //         style={{
-//           backgroundColor: "#0c4e60",
+//           backgroundColor: "#142629",
 //           transition: "all 0.5s ease",
 //           scrollBehavior: "smooth",
 //           boxShadow: "0 0 10px rgba(0,0,0,0.1)",
@@ -52,7 +52,7 @@ const Navbar = () => {
       <div
         className="sticky top-0 w-full flex justify-center items-center"
         style={{
-          backgroundColor: "#0c4e60",
+          backgroundColor: "#142629",
           transition: "all 0.5s ease",
           scrollBehavior: "smooth",
           boxShadow: "0 0 10px rgba(0,0,0,0.1)",

@@ -46,9 +46,9 @@ export default function BannerHome() {
               className="w-full h-[500px]"
               key={index}
               style={{
-                background: "#0c4e60",
+                background: "#142629",
                 background:
-                  "linear-gradient(90deg, #0c4e60 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%)",
+                  "linear-gradient(90deg, #142629 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%)",
                 borderRadius: "4%",
               }}
             >
