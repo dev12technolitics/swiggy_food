@@ -70,10 +70,10 @@ export default function BannerHome() {
                     </h3>
 
                     <h5
-                      className="font-[500] leading-[25px] text-[18px] text-[#eae5dc]
+                      className="font-[700] leading-[25px] text-[18px] text-[#eae5dc]
                  overflow-hidden"
                  style={{
-                  fontFamily: 'Poppins',
+                  fontFamily: 'Crimson Text',
                 }}
                     >
                       Minimum 30% OFF
@@ -92,7 +92,7 @@ export default function BannerHome() {
                     <div
                       className=" w-[119px] bg-[#fffffff2] mt-[9px]
                      flex flex-col justify-center items-center text-[14px] font-bold"
-                      style={{ borderRadius: "4px", padding: "5px", fontFamily: 'Poppins', }}
+                      style={{ borderRadius: "4px", padding: "5px",}}
                     >
                       ORDER NOW
                     </div>
