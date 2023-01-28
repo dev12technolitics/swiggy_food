@@ -73,6 +73,7 @@ export default function ProductBox() {
               <div className="flex flex-col justify-center items-center">
                 <h5
                   className="text-[12px] text-[#fffffffc]"
+                  style={{fontFamily: 'Poppins',}}
                 >
                   Masala dosa
                 </h5>

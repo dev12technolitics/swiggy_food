@@ -1,9 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Poppins:wght@200&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Poppins:wght@100&display=swap');
 /* styles file */
 @import url('./responsive.css');
 

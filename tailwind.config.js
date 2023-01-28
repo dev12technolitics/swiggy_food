@@ -8,4 +8,8 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  fontFamily:{
+    Crimson:["Crimson Text" , "serif"],
+    Poppins:["Poppins" , "sans-serif"],
+  }
 };
