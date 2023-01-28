@@ -55,7 +55,7 @@ export default function ProductBox() {
               </div>
               <div className="flex flex-col justify-center items-center">
                 <h5
-                  className="text-[12px] text-[#fffffffc]"
+                  className="text-[11px] text-[#fffffffc]"
                   style={{fontFamily: 'Poppins',}}
                 >
                   Masala dosa
@@ -72,7 +72,7 @@ export default function ProductBox() {
               </div>
               <div className="flex flex-col justify-center items-center">
                 <h5
-                  className="text-[12px] text-[#fffffffc]"
+                  className="text-[11px] text-[#fffffffc]"
                   style={{fontFamily: 'Poppins',}}
                 >
                   Masala dosa
