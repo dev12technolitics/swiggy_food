@@ -7,7 +7,7 @@ import SearchHome from "./SearchHome";
 const HomePage = () => {
   return (
     <>
-      <div className="w-full flex flex-col justify-center items-center">
+      <div className="w-full flex flex-col justify-center items-center bg-[#070f10]">
         <div className="container ">
           <div className="mt-[20px] flex-col md:hidden ">
             <SearchHome />
